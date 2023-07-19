@@ -78,7 +78,7 @@
     var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
     var gameFrame = document.getElementById("gameFrame");
 
-    if (getParameterByName('m') != '1')// && orientation === "landscape-primary" || orientation === "landscape-secondary" || orientation === undefined)
+    if (getParameterByName('m') != '1')// && orientation === "portrait-primary" || orientation === "portrait-secondary" || orientation === undefined)
     {
         gameFrame.src = "https://mrmine.com/game/desktop/index.html?t=8627305945";
         gameFrame.classList.add("game-frame-desktop");
